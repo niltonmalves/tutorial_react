@@ -12,3 +12,16 @@ https://nodejs.org/en/download/
 
 ![image-20210908135739596](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210908135739596.png)
 
+
+
+![image-20210908141306541](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210908141306541.png)
+
+### Step 2: Install Node.js and NPM from Browser
+
+### Step 3: Verify Installation
+
+```bash
+node -v
+npm -v
+```
+
