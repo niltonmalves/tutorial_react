@@ -63,7 +63,7 @@ Pelo terminal, na pasta onde será criado o projeto, rodar:
 
 https://github.com/plotly/react-plotly.js-demo-app
 
-![image-20210909184908290](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909184908290.png?raw=true)
+![image-20210909184908290](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/Inkedimage-20210909184908290_LI.jpg?raw=true)
 
 
 
