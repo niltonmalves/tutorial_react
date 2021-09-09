@@ -25,7 +25,7 @@ node -v
 npm -v
 ```
 
-![image-20210908144755581](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210908144755581.png)
+![image-20210908144755581](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210908144755581.png?raw=true)
 
 
 
@@ -37,15 +37,15 @@ Pelo terminal, na pasta onde será criado o projeto, rodar:
 
 `npx create-react-app my-app`
 
-![image-20210908150105805](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210908150105805.png)
+![image-20210908150105805](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210908150105805.png?raw=true)
 
-![image-20210908151336598](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210908151336598.png)
+![image-20210908151336598](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210908151336598.png?raw=true)
 
-![image-20210908151515169](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210908151515169.png)
+![image-20210908151515169](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210908151515169.png?raw=true)
 
-![image-20210908154046120](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210908154046120.png)
+![image-20210908154046120](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210908154046120.png?raw=true)
 
-![image-20210908154109724](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210908154109724.png)
+![image-20210908154109724](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210908154109724.png?raw=true)
 
 
 
@@ -53,9 +53,9 @@ Pelo terminal, na pasta onde será criado o projeto, rodar:
 
 `npm install react-plotly.js plotly.js`
 
-![image-20210909184405912](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909184405912.png)
+![image-20210909184405912](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909184405912.png?raw=true)
 
-![image-20210909184622838](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909184622838.png)
+![image-20210909184622838](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909184622838.png?raw=true)
 
 
 
@@ -63,32 +63,32 @@ Pelo terminal, na pasta onde será criado o projeto, rodar:
 
 https://github.com/plotly/react-plotly.js-demo-app
 
-![image-20210909184908290](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909184908290.png)
+![image-20210909184908290](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909184908290.png?raw=true)
 
 
 
 ## Step 6: Copiar conteudo descompactado para pasta do app criado.
 
-![image-20210909185008991](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909185008991.png)
+![image-20210909185008991](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909185008991.png?raw=true)
 
-![image-20210909185228606](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909185228606.png)
+![image-20210909185228606](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909185228606.png?raw=true)
 
 Step 7: Would you like to add the defaults to your package.json? ... yes
 
-![image-20210909185428348](C:\Users\niltonmonteiro\AppData\Roaming\Typora\typora-user-images\image-20210909185428348.png)
+![image-20210909185428348](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909185428348.png?raw=true)
 
 Step 8: instalar 'isomorphic-fetch'
 
 `npm install --save isomorphic-fetch`
 
-![image-20210909185758715](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909185758715.png)
+![image-20210909185758715](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909185758715.png?raw=true)
 
 Step 9: Iniciar o servico
 
 `npm start`
 
-![image-20210909191258174](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909191258174.png)
+![image-20210909191258174](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909191258174.png?raw=true)
 
 
 
-![image-20210909191330276](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909191330276.png)
+![image-20210909191330276](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909191330276.png?raw=true)
