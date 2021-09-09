@@ -71,7 +71,7 @@ https://github.com/plotly/react-plotly.js-demo-app
 
 ![image-20210909185008991](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909185008991.png?raw=true)
 
-![image-20210909185228606](C:\Users\niltonmonteiro\Documents\GitHub\tutorial_react\imagens\image-20210909185228606.png?raw=true)
+![image-20210909185228606](https://github.com/niltonmalves/tutorial_react/blob/main/imagens/image-20210909185228606.png?raw=true)
 
 Step 7: Would you like to add the defaults to your package.json? ... yes
 
