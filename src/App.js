@@ -58,11 +58,14 @@ class App extends Component {
             plotUrl: ''
         };
     }
-    
+    //funcao que seleciona o json na  div className='controls-panel
+    //canto superior esquerdo
     handleJsonChange = newJSON => {
         this.setState({json: newJSON});
     }
-
+    //funcao utilizada para analisar os dados 
+    //buscados retornados da funcao getmocks
+    //
     handleNewPlot = option => {
         let url = '';
         if ('value' in option) {
@@ -96,8 +99,11 @@ class App extends Component {
             });
         }
     }
-    
+    //procura na api da ploty opcoes de graficos
+    //a div fica no lado direito da app no parte superior
+    // onde fica tem "Search charts on plot.ly by topic -- e.g. "GDP"'
     getPlots = (input) => {
+        //sem input, retorna opcoes vazio
         if (!input) {
 			return Promise.resolve({ options: [] });
 		}
@@ -105,17 +111,22 @@ class App extends Component {
         let urlToFetch = `https://api.plot.ly/v2/search?q=${input}`;
         
 		return fetch(urlToFetch)
+            // .then pega response.json()) da api
+            // aqui o retorno value, nao esta funcionando
 		    .then((response) => response.json())
 		    .then((json) => {
 			    return { options: json.files.map(function(o) {
                     return {
-                        label: `${o.filename} by ${o.owner}, ${o.views} views`,
+                        label: `${o.filename} by ${o.owner}, ${o.views} views aqui: ${o.web_url}`,
                         value: o.web_url.replace(/\/$/, "") + '.json'
+                        
                     };
                 })};
 		    });
+            
     };
-
+    // fornece diversas opções de links com dados para
+    //plotar os graficos
     getMocks = () => {
 		return fetch('https://api.github.com/repositories/45646037/contents/test/image/mocks')
 		    .then((response) => response.json())
@@ -131,7 +142,7 @@ class App extends Component {
                 };
 		    });
     };
-    
+    //funcao que vai retornar o formado da aplicacao
     render() {
 
         let searchPlaceholder = 'Search charts on plot.ly by topic -- e.g. "GDP"';
@@ -166,7 +177,7 @@ class App extends Component {
                        />                  
                     </div>                         
                     <div>
-                       <div className='controls-panel'>
+                       <div className='controls-panel'> teste
                             <Select.Async
                                 name="plot-search-bar"
                                 loadOptions={this.getPlots}
@@ -196,5 +207,5 @@ class App extends Component {
         );
     }
 }
-
+//to make avaiable outside of this file
 export default App;
